@@ -24,3 +24,8 @@ HackerRank Challenge 5:
 Question5: Query all attributes of every Japanese city in the CITY table. The COUNTRYCODE for Japan is JPN.
 SELECT * FROM CITY
 WHERE COUNTRYCODE = 'JPN';
+
+HackerRank Challenge 6:
+Question6: Query the names of all the Japanese cities in the CITY table. The COUNTRYCODE for Japan is JPN.
+SELECT NAME FROM CITY
+WHERE COUNTRYCODE = 'JPN';
