@@ -33,3 +33,9 @@ WHERE COUNTRYCODE = 'JPN';
 HackerRank Challenge 6:
 Question6: Query a list of CITY and STATE from the STATION table..
 SELECT CITY, STATE from STATION;
+
+SELECT CITY, STATE from STATION;
+
+
+SELECT CITY FROM STATION
+WHERE ID == %2; WRONG ANSWER
